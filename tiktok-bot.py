@@ -166,7 +166,7 @@ bot = int(input(">>> What do you want to do? \n- 1 - Get Views \n- 2 - Get Follo
 print("-----------------------------------------")
 
 PATH = " " #insert your chromdedriver path beetween the "" (read the README file for more details)
-driver = webdriver.Chrome(PATH)
+driver = webdriver.Chrome.exe(PATH)
 driver.get("https://zefoy.com/")
 
 if bot == 1:
